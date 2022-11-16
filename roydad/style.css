@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+#main {
+  width: 100%;
+  height: 4.8rem;
+  background-color: #f3be00;
+  border-radius: 0 0 3rem 3rem;
+  display: grid;
+  place-items: center;
+}
+#main #navbar-title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#container {
+  max-width: 80rem;
+  margin: auto;
+  padding: 0 2rem;
+}
+#container #short-news {
+  width: 100%;
+  height: 2rem;
+  background-color: #f3be00;
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+  display: grid;
+  place-items: center;
+}
+#container #text-news {
+  text-align: justify;
+  font-weight: 500;
+}
+#container #text-news span {
+  font-weight: bold;
+}
+#container #silider {
+  width: 100%;
+  height: 13rem;
+  background-color: #f3be00;
+  border-radius: 1.5rem;
+  margin-top: 0.5rem;
+}
+#container #special-services {
+  margin-top: 1rem;
+}
+#container #text-special-services {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+#container #box-special-services {
+  direction: ltr;
+  width: 100%;
+  background-color: #f3be00;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+#container .text-s-s {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+#container .box-special {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+}
+#container #box-pay {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+}
+#services {
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+#services #text-services {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+#services #box-services {
+  direction: ltr;
+  width: 100%;
+  background-color: #f3be00;
+  border-radius: 2rem;
+  padding: 1.5rem 0;
+}
+#services #box-s1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+#services #box-s2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#button-bars {
+  direction: ltr;
+  width: 100%;
+  height: 5rem;
+  background-color: #f3be00;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 2.5rem 2.5rem 0 0;
+  padding: 0.3rem 0;
+}
+#button-bars #button-u-a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+}
+#button-bars #button-h {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+}
+#button-bars #button-m {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #000;
+  border-radius: 1rem;
+}/*# sourceMappingURL=style.css.map */
